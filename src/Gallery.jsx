@@ -47,7 +47,7 @@ const Gallery = () => {
     if (results.length < 1) {
         return (
             <section className="image-container">
-                <h4>No result found</h4>
+                <h2>No result found</h2>
                 <p>Try something different</p>
             </section>
         );
